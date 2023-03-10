@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  justify-content: space-between;
+}
+.menu nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .logo h2 {
+    color: white;
+  }
+  .menu nav,
+  .menu .logo {
+    margin: 10px 30px;
+  }
+  span {
+    color: red;
+  }
+  
+  .menu nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  header {
+    background: no-repeat url(hero-bg.png);
+    height: 900px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+  }
+  header::after {
+    content: "";
+    top: 0;
+    height: 900px;
+    position: absolute;
+    width: 100%;
+  
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  body{
+    background-image: url("hero-bg.png");
+  }
